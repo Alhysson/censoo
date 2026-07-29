@@ -64,6 +64,7 @@ export default function DashboardView({ students, onRefresh, theme }) {
     amber: { bg: '#f59e0b' },
     pink: { bg: '#ec4899' },
     indigo: { bg: '#6366f1' },
+    emerald: { bg: '#10b981' },
     grey: { bg: '#9ca3af' },
     palette: [
       '#7c3aed', '#0ea5e9', '#10b981', '#f59e0b', '#ef4444', 
