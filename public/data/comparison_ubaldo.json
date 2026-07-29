@@ -1,0 +1,3486 @@
+[
+  {
+    "id": "178494105646.0",
+    "nome": "KAUÃ MIGUEL SOUSA DOS REIS",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "214.872.117-83",
+      "data_nascimento": "19/08/2015",
+      "turma": "5º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "193478468646.0",
+    "nome": "KAEL GABRIEL SOUSA DOS REIS",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "214.871.877-00",
+      "data_nascimento": "10/04/2017",
+      "turma": "3º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "124387420706.0",
+    "nome": "SHESTEFANNY RESENDE VALERIANO",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "164.713.517-63",
+      "data_nascimento": "07/01/2011",
+      "turma": "9º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "130071750036.0",
+    "nome": "ELIAS DE OLIVEIRA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "173.162.187-62",
+      "data_nascimento": "31/03/2013",
+      "turma": "8º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "193017718297.0",
+    "nome": "ALEXSANDRO RESENDE DA SILVA VALERIANO",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "205.559.567-92",
+      "data_nascimento": "01/02/2018",
+      "turma": "3º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "214360518356.0",
+    "nome": "MIGUEL RESENDE DA SILVA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "218.810.617-28",
+      "data_nascimento": "03/10/2019",
+      "turma": "1º ANO ÚNICA",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "130479574285.0",
+    "nome": "EMANUELLY RESENDE DA SILVA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "180.867.027-23",
+      "data_nascimento": "14/01/2014",
+      "turma": "6º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "214582982806.0",
+    "nome": "RICKELME SILVA DE ABREU PEREIRA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "212.842.837-80",
+      "data_nascimento": "02/12/2018",
+      "turma": "2º ANO ÚNICA",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "122386078468.0",
+    "nome": "ANA LÍVIA MACHADO DA SILVA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "213.651.867-41",
+      "data_nascimento": "15/04/2010",
+      "turma": "9º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "185685782259.0",
+    "nome": "EMANUELLY DE SOUZA PAULINO",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "065.668.367-80",
+      "data_nascimento": "08/04/2017",
+      "turma": "3º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "127494707068.0",
+    "nome": "YAGO GOMES ROGERIO",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "171.735.097-69",
+      "data_nascimento": "10/01/2013",
+      "turma": "8º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "183542357773.0",
+    "nome": "CARLOS EMANUEL PEREIRA SCHMIT",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "183.968.937-48",
+      "data_nascimento": "21/12/2014",
+      "turma": "5º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "178580990199.0",
+    "nome": "MURILO CROSCOP DA SILVA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "199.465.447-33",
+      "data_nascimento": "10/10/2016",
+      "turma": "4º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "123495770908.0",
+    "nome": "YHURI JUREVETH RODRIGUES",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "164.418.017-01",
+      "data_nascimento": "26/04/2011",
+      "turma": "9º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "132151302546.0",
+    "nome": "HUGO FERNANDES ALVARENGA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "218.875.217-12",
+      "data_nascimento": "30/05/2015",
+      "turma": "5º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "185084465003.0",
+    "nome": "ARTHUR RODRIGUES VICENTINO",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "065.800.307-04",
+      "data_nascimento": "22/02/2016",
+      "turma": "5º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "127436429980.0",
+    "nome": "JOÃO PEDRO COLI CARDOSO",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "175.434.827-03",
+      "data_nascimento": "30/08/2013",
+      "turma": "7º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "178580975203.0",
+    "nome": "MATEUS CROSCOP DA SILVA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "199.465.347-70",
+      "data_nascimento": "10/10/2016",
+      "turma": "4º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "185929447593.0",
+    "nome": "DHAVI ROQUE RIBEIRO SILVA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "224.882.907-85",
+      "data_nascimento": "09/12/2016",
+      "turma": "4º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "183436887918.0",
+    "nome": "EMANUELLY VITÓRIA SCHMIDT TRANCOSO TORRES",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "193.857.377-32",
+      "data_nascimento": "06/07/2016",
+      "turma": "4º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "205201847267.0",
+    "nome": "BENÍCIO MONFARDINI DE SOUZA NASCIMENTO",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "214.870.857-02",
+      "data_nascimento": "17/03/2019",
+      "turma": "2º ANO ÚNICA",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "126135057102.0",
+    "nome": "GABRIELA DUTRA TABOADA FLORA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "168.107.527-06",
+      "data_nascimento": "15/06/2012",
+      "turma": "9º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "183536029115.0",
+    "nome": "BENJAMIN DA CRUZ RODRIGUES",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "196.562.267-47",
+      "data_nascimento": "26/11/2016",
+      "turma": "4º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "127539765622.0",
+    "nome": "KAYNÃ RIQUELME DE JESUS COSTA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "184.424.257-99",
+      "data_nascimento": "05/12/2010",
+      "turma": "9º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "205527405003.0",
+    "nome": "ANTONY VELMER MOREIRA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "219.847.897-83",
+      "data_nascimento": "29/12/2019",
+      "turma": "1º ANO ÚNICA",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "149999880206.0",
+    "nome": "OSCAR VELMER FURLAN",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "191.393.647-39",
+      "data_nascimento": "20/01/2016",
+      "turma": "4º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "227605577662.0",
+    "nome": "ANTHONELLA MENDONÇA DOS REIS",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "217.738.207-61",
+      "data_nascimento": "08/08/2019",
+      "turma": "1º ANO ÚNICA",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "177326667801.0",
+    "nome": "JOÃO PEDRO MENDONCA GOMES",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "194.201.667-08",
+      "data_nascimento": "24/07/2016",
+      "turma": "4º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "176334478779.0",
+    "nome": "DAVI LUCAS MENDONÇA GOMES",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "185.871.887-20",
+      "data_nascimento": "17/04/2015",
+      "turma": "5º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "215469603090.0",
+    "nome": "OTÁVIO DEGAN MANTOVANI",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "218.915.017-55",
+      "data_nascimento": "21/10/2019",
+      "turma": "1º ANO ÚNICA",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "214360516574.0",
+    "nome": "BENJAMIM MENEGASSI SILVA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "216.034.507-50",
+      "data_nascimento": "23/04/2019",
+      "turma": "1º ANO ÚNICA",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "123518366695.0",
+    "nome": "YASMIN GOMES PEREIRA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "066.411.767-89",
+      "data_nascimento": "14/08/2010",
+      "turma": "9º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "123850528811.0",
+    "nome": "RENDRIQUE RODRIGUES VIANA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "155.708.767-90",
+      "data_nascimento": "14/11/2009",
+      "turma": "9º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "184888533430.0",
+    "nome": "INGRID PAIXÃO CAETANO",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "203.669.327-05",
+      "data_nascimento": "16/11/2017",
+      "turma": "3º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "183373561468.0",
+    "nome": "HELOISA DE JESUS DOS SANTOS",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "198.319.487-50",
+      "data_nascimento": "14/03/2017",
+      "turma": "4º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "127436776605.0",
+    "nome": "KAYO NEVES VALENTIM",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "181.427.227-55",
+      "data_nascimento": "15/07/2010",
+      "turma": "9º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "204395845159.0",
+    "nome": "REBECA LORIATO PRATTI",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "219.732.097-13",
+      "data_nascimento": "16/12/2019",
+      "turma": "1º ANO ÚNICA",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "228814448149.0",
+    "nome": "ANA KAROLINA GOMES SOARES",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "216.785.217-79",
+      "data_nascimento": "11/06/2019",
+      "turma": "1º ANO ÚNICA",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "204371886980.0",
+    "nome": "JONATHAN MENDES DE OLIVEIRA JUNIOR",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "216.148.537-70",
+      "data_nascimento": "10/05/2019",
+      "turma": "1º ANO ÚNICA",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "183416816500.0",
+    "nome": "DOUGLAS SANTIN",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "110.507.435-80",
+      "data_nascimento": "11/05/2012",
+      "turma": "7º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "193735105091.0",
+    "nome": "KAUAN DO CARMO",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "207.776.417-12",
+      "data_nascimento": "27/04/2018",
+      "turma": "2º ANO ÚNICA",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "185074767678.0",
+    "nome": "LUARA PEREIRA DO NASCIMENTO",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "209.308.847-95",
+      "data_nascimento": "01/07/2018",
+      "turma": "2º ANO ÚNICA",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "130128165340.0",
+    "nome": "SOPHYA SCHIFFLER NOGUEIRA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "171.162.517-58",
+      "data_nascimento": "20/12/2012",
+      "turma": "6º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "127452638467.0",
+    "nome": "DAVÍ DIAS TAMANINI",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "182.214.017-06",
+      "data_nascimento": "20/12/2012",
+      "turma": "8º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "152008158941.0",
+    "nome": "DAVI FAVORETTE DE JESUS",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "192.136.867-57",
+      "data_nascimento": "07/04/2016",
+      "turma": "4º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "177928740108.0",
+    "nome": "PEDRO HENRIQUE KAMKE DOS REIS",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "064.471.837-40",
+      "data_nascimento": "07/08/2017",
+      "turma": "3º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "175053723353.0",
+    "nome": "ANTÔNIO TEIXEIRA DOS SANTOS",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "063.910.187-90",
+      "data_nascimento": "15/08/2016",
+      "turma": "4º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "130409679240.0",
+    "nome": "MARIA EDUARDA JUSTINO GOBETTI",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "174.466.257-67",
+      "data_nascimento": "24/06/2013",
+      "turma": "7º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "203600625983.0",
+    "nome": "JAIR HACKBART DUTRA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "159.977.874-27",
+      "data_nascimento": "13/11/2018",
+      "turma": "2º ANO ÚNICA",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "193483822339.0",
+    "nome": "ASAFE ROSA MATTOS",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "206.932.687-00",
+      "data_nascimento": "08/02/2018",
+      "turma": "3º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "193400143838.0",
+    "nome": "BENJAMIN ROSA MATTOS",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "212.103.897-38",
+      "data_nascimento": "31/10/2016",
+      "turma": "4º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "203419408445.0",
+    "nome": "SAMUEL PEDRONI DE ALMEIDA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "220.339.217-78",
+      "data_nascimento": "28/01/2020",
+      "turma": "1º ANO ÚNICA",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "204352420750.0",
+    "nome": "NAOMI SPELTA LOPES",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "220.071.297-95",
+      "data_nascimento": "13/01/2020",
+      "turma": "1º ANO ÚNICA",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "150000916128.0",
+    "nome": "LAURA PARMEZANI DOS SANTOS",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "188.904.107-60",
+      "data_nascimento": "24/10/2015",
+      "turma": "5º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "215469598231.0",
+    "nome": "BRENDHLER HENRIQUE CASSARO NUNES",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "219.682.987-03",
+      "data_nascimento": "14/12/2019",
+      "turma": "1º ANO ÚNICA",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "204609695950.0",
+    "nome": "THAUANNY EMANUELLY DOS REIS BRAGA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "203.950.227-03",
+      "data_nascimento": "28/10/2016",
+      "turma": "4º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "204747415325.0",
+    "nome": "MARIA ISABELLY RODRIGUES VIANA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "204.729.987-06",
+      "data_nascimento": "21/09/2017",
+      "turma": "3º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "175055132905.0",
+    "nome": "ALICE SCHIFFLER CARS",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "194.162.867-29",
+      "data_nascimento": "17/07/2016",
+      "turma": "4º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "130046063306.0",
+    "nome": "ANA BEATRIZ CARS AMORIM",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "186.128.297-47",
+      "data_nascimento": "22/04/2015",
+      "turma": "5º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "214360510967.0",
+    "nome": "BENJAMIM FERREIRA DE SOUZA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "217.837.637-10",
+      "data_nascimento": "15/08/2019",
+      "turma": "1º ANO ÚNICA",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "204757690310.0",
+    "nome": "DAVI FAUSTINO DE AZEREDO",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "216.781.357-04",
+      "data_nascimento": "11/06/2019",
+      "turma": "1º ANO ÚNICA",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "193513061780.0",
+    "nome": "JOÃO MIGUEL RIBEIRO ROCHA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "221.146.877-24",
+      "data_nascimento": "31/03/2020",
+      "turma": "1º ANO ÚNICA",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "241665196201.0",
+    "nome": "AYLLA VITÓRIA DOS SANTOS PEREIRA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "117.671.005-23",
+      "data_nascimento": "16/01/2020",
+      "turma": "1º ANO ÚNICA",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "183086345402.0",
+    "nome": "KEVILLYN VICTÓRIA OLIVEIRA SANTOS",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "226.619.297-38",
+      "data_nascimento": "09/08/2016",
+      "turma": "4º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "192806358247.0",
+    "nome": "DAVI LUIZ FERREIRA SILVA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "221.119.627-67",
+      "data_nascimento": "17/03/2020",
+      "turma": "1º ANO ÚNICA",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "150212083227.0",
+    "nome": "BERNARDO TEIXEIRA ROBERLAND SANTANNA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "206.105.757-83",
+      "data_nascimento": "18/05/2015",
+      "turma": "5º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "127536620615.0",
+    "nome": "VICTOR HUGO DE MORAES ROSA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "179.675.727-69",
+      "data_nascimento": "01/04/2014",
+      "turma": "6º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "130304508054.0",
+    "nome": "SAYMON GOMES DA SILVA DE JESUS",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "181.927.317-23",
+      "data_nascimento": "01/09/2014",
+      "turma": "6º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "127593904112.0",
+    "nome": "PEDRO GABRIEL DE MOURA CAETANO",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "178.654.727-90",
+      "data_nascimento": "06/02/2014",
+      "turma": "6º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "185348140588.0",
+    "nome": "LUNARA DA SILVA MARTINS DE ARAUJO",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "064.163.867-12",
+      "data_nascimento": "14/02/2017",
+      "turma": "4º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "175068908281.0",
+    "nome": "SOPHIA DE OLIVEIRA LIMA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "192.783.867-31",
+      "data_nascimento": "10/05/2016",
+      "turma": "4º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "177936851053.0",
+    "nome": "SARAH DOS SANTOS FERNANDES",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "195.560.507-60",
+      "data_nascimento": "29/09/2016",
+      "turma": "4º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "185129692615.0",
+    "nome": "JOÃO VICTOR RODRIGUES FIALHO",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "194.787.937-56",
+      "data_nascimento": "25/08/2016",
+      "turma": "4º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "175059421316.0",
+    "nome": "JOÃO LUCAS DE OLIVEIRA LIMA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "192.783.247-01",
+      "data_nascimento": "10/05/2016",
+      "turma": "4º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "183121062947.0",
+    "nome": "ESTHER HOLZ LAZARO",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "063.931.167-90",
+      "data_nascimento": "30/08/2016",
+      "turma": "4º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "197980706314.0",
+    "nome": "EMANUELLY TEIXEIRA DA SILVA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "219.254.987-35",
+      "data_nascimento": "13/02/2017",
+      "turma": "4º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "204412399190.0",
+    "nome": "TIELLY OLIVEIRA RIO BRANCO",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "199.523.057-02",
+      "data_nascimento": "09/05/2017",
+      "turma": "3º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "185707304389.0",
+    "nome": "ALICE DAS NEVES LULIO",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "064.386.237-41",
+      "data_nascimento": "08/05/2017",
+      "turma": "3º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "185780165563.0",
+    "nome": "THIAGO CEZAR NICHIO VIEIRA FILHO",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "200.326.237-71",
+      "data_nascimento": "19/06/2017",
+      "turma": "3º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "183300022508.0",
+    "nome": "KAUANDHER DE MORAES GUIDONI",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "064.901.547-90",
+      "data_nascimento": "13/05/2017",
+      "turma": "3º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "185777472477.0",
+    "nome": "HENDRICK LUCAS DE SOUZA PEREIRA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "205.108.667-27",
+      "data_nascimento": "23/01/2018",
+      "turma": "3º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "204747405605.0",
+    "nome": "GLENDA APARECIDA SOARES MONFARDINI",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "205.687.877-14",
+      "data_nascimento": "12/02/2018",
+      "turma": "3º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "193474422404.0",
+    "nome": "THEO BASSETTI BRÔCCO",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "206.352.757-16",
+      "data_nascimento": "12/03/2018",
+      "turma": "3º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "178228394038.0",
+    "nome": "RAVI RODRIGUES VIEIRA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "203.345.197-64",
+      "data_nascimento": "13/11/2017",
+      "turma": "3º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "183300231921.0",
+    "nome": "PYETRO DE CARVALHO DE BRITO OLIVEIRA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "205.973.457-67",
+      "data_nascimento": "30/04/2017",
+      "turma": "3º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "205201842460.0",
+    "nome": "NICOLAS MACHADO HELMER LOPES",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "204.933.097-99",
+      "data_nascimento": "04/01/2018",
+      "turma": "3º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "204747407063.0",
+    "nome": "MARIA LUIZA PEREIRA DA SILVA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "206.248.967-65",
+      "data_nascimento": "01/03/2018",
+      "turma": "3º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "185082631801.0",
+    "nome": "KALEBE ISAAC GOMES LAUREANO",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "201.695.067-62",
+      "data_nascimento": "26/08/2017",
+      "turma": "3º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "183300466210.0",
+    "nome": "JOÃO PEDRO GOMES BATISTA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "202.276.777-22",
+      "data_nascimento": "15/09/2017",
+      "turma": "3º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "204747414353.0",
+    "nome": "HELOÁ SOUZA MOREIRA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "201.793.957-93",
+      "data_nascimento": "07/09/2017",
+      "turma": "3º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "183577616740.0",
+    "nome": "EMILLY VIEIRA GOMES",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "200.564.877-97",
+      "data_nascimento": "20/06/2017",
+      "turma": "3º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "183525344910.0",
+    "nome": "EMANUELLI OLIVEIRA MANDATO",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "199.870.947-75",
+      "data_nascimento": "23/05/2017",
+      "turma": "3º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "204395847283.0",
+    "nome": "PYETTRA DOS REIS CALCI",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "208.986.627-61",
+      "data_nascimento": "24/06/2018",
+      "turma": "2º ANO ÚNICA",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "193505710210.0",
+    "nome": "NICOLAS DE PAULA LUNG",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "212.957.137-99",
+      "data_nascimento": "23/12/2018",
+      "turma": "2º ANO ÚNICA",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "204747405109.0",
+    "nome": "MIGUEL SOARES DE JESUS",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "210.050.807-55",
+      "data_nascimento": "07/08/2018",
+      "turma": "2º ANO ÚNICA",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "216391348322.0",
+    "nome": "MIGUEL PRATES SANTOS",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "210.257.427-02",
+      "data_nascimento": "12/08/2018",
+      "turma": "2º ANO ÚNICA",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "214534976680.0",
+    "nome": "MAITÊ GAMA JIMENEZ DIAS",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "210.595.037-00",
+      "data_nascimento": "31/08/2018",
+      "turma": "2º ANO ÚNICA",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "227656960633.0",
+    "nome": "MABLY SOPHIA DIAS MORENO",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "109.402.735-94",
+      "data_nascimento": "21/12/2018",
+      "turma": "2º ANO ÚNICA",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "184901068007.0",
+    "nome": "LORENZO JHONES SANTOS PIRES",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "208.949.257-09",
+      "data_nascimento": "20/06/2018",
+      "turma": "2º ANO ÚNICA",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "123389258158.0",
+    "nome": "VICTORIA BARBOSA JACOBSEN MARINHO",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "160.642.497-14",
+      "data_nascimento": "24/05/2011",
+      "turma": "9º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "127427618539.0",
+    "nome": "THALYTA RODRIGUES PASOLINI",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "168.746.587-86",
+      "data_nascimento": "27/02/2012",
+      "turma": "9º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "123468789440.0",
+    "nome": "NICOLAS NOGUEIRA GENESIO",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "167.080.227-29",
+      "data_nascimento": "11/05/2011",
+      "turma": "9º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "123398957900.0",
+    "nome": "KAUÃ DA VICTÓRIA WOTKOSKI",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "166.681.917-46",
+      "data_nascimento": "27/09/2011",
+      "turma": "9º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "130414683101.0",
+    "nome": "JOSÉ BRAYAN CASTRO BARCELOS",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "166.117.797-28",
+      "data_nascimento": "25/08/2011",
+      "turma": "9º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "144941507540.0",
+    "nome": "JOAB LEMES PEREIRA DE SOUZA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "704.231.046-24",
+      "data_nascimento": "17/05/2012",
+      "turma": "8º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "127343882944.0",
+    "nome": "ISAQUE DA SILVA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "197.351.727-20",
+      "data_nascimento": "21/02/2012",
+      "turma": "9º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "130333869540.0",
+    "nome": "GABRIEL MENEGASSI SILVA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "175.641.557-95",
+      "data_nascimento": "02/03/2011",
+      "turma": "9º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "127533741713.0",
+    "nome": "ESMERALDA DOS SANTOS DEFANTE",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "167.156.077-96",
+      "data_nascimento": "08/06/2011",
+      "turma": "9º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "127508767291.0",
+    "nome": "EMILLY MARIA DA SILVA DE PAULA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "166.457.857-98",
+      "data_nascimento": "03/07/2011",
+      "turma": "9º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "123842521781.0",
+    "nome": "EDUARDO DE PAULA CARVALHO",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "166.939.297-02",
+      "data_nascimento": "20/11/2011",
+      "turma": "9º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "130460399720.0",
+    "nome": "CAMILO PRATTI NETO",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "165.168.877-05",
+      "data_nascimento": "27/01/2012",
+      "turma": "9º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "125175898107.0",
+    "nome": "BERNARDO RODRIGUES SILVA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "160.108.887-60",
+      "data_nascimento": "20/01/2011",
+      "turma": "9º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "123359369997.0",
+    "nome": "ADRYANN VENANCIO SANTANA SPALENZA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "166.054.727-05",
+      "data_nascimento": "13/07/2009",
+      "turma": "9º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "127423120641.0",
+    "nome": "YSADORA DE JESUS LEMOS",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "169.938.157-70",
+      "data_nascimento": "10/10/2012",
+      "turma": "8º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "128014370774.0",
+    "nome": "MARILIA CECILIA FERREIRA PIRES",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "169.823.197-09",
+      "data_nascimento": "21/07/2012",
+      "turma": "8º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "127421237177.0",
+    "nome": "LUIZ GUSTAVO PEREIRA DA SILVA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "172.672.867-63",
+      "data_nascimento": "01/02/2013",
+      "turma": "8º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "130493987443.0",
+    "nome": "LUIS FILIPE FREITAS RODRIGUES",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "148.179.086-29",
+      "data_nascimento": "10/09/2012",
+      "turma": "8º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "176331760678.0",
+    "nome": "JHONWANDERSON SILVA SANTANA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "167.666.817-99",
+      "data_nascimento": "04/04/2012",
+      "turma": "8º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "130568164597.0",
+    "nome": "HENRYQUE CORREA VICENTE SANTANA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "167.260.097-98",
+      "data_nascimento": "20/04/2012",
+      "turma": "8º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "127455425758.0",
+    "nome": "GABRIEL RODRIGUES CARVALHO",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "169.537.297-24",
+      "data_nascimento": "02/06/2012",
+      "turma": "8º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "127393364203.0",
+    "nome": "EVELYN CASAGRANDE MARTINS",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "153.796.627-81",
+      "data_nascimento": "20/04/2010",
+      "turma": "8º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "125348314888.0",
+    "nome": "DAVI PIGNATON CORSINI",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "158.391.837-09",
+      "data_nascimento": "16/01/2011",
+      "turma": "8º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "124381990403.0",
+    "nome": "DAVI ALVES DE SOUZA NUNES",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "165.894.207-85",
+      "data_nascimento": "29/02/2012",
+      "turma": "8º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "124891937164.0",
+    "nome": "AYKA MARTINELLI DELPRETI",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "176.517.917-38",
+      "data_nascimento": "08/06/2012",
+      "turma": "8º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "175313732110.0",
+    "nome": "WHARLEY LASCOLA CAPAZ FILHO",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "177.360.297-76",
+      "data_nascimento": "08/12/2013",
+      "turma": "7º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "130335300366.0",
+    "nome": "THALIA BRUNOW BRÊDA DA SILVA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "175.383.317-51",
+      "data_nascimento": "28/04/2013",
+      "turma": "7º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "178436123947.0",
+    "nome": "SOPHIA DA SILVA TORRENTE",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "179.325.177-02",
+      "data_nascimento": "22/02/2014",
+      "turma": "7º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "125014262820.0",
+    "nome": "RICHARD GUILHERME BATISTA SCHINEIDER",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "174.648.147-11",
+      "data_nascimento": "28/06/2013",
+      "turma": "7º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "127411163006.0",
+    "nome": "RICARDO GOMES DOS SANTOS",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "175.333.147-19",
+      "data_nascimento": "17/05/2013",
+      "turma": "7º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "183011256836.0",
+    "nome": "RAIANY BEATRIZ EWALD DA SILVA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "065.362.087-06",
+      "data_nascimento": "22/08/2012",
+      "turma": "7º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "130329519254.0",
+    "nome": "MATEUS PIGNATON CORSINI",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "215.298.447-11",
+      "data_nascimento": "06/06/2013",
+      "turma": "7º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "175954325706.0",
+    "nome": "MARIA EDUARDA FROHRICH",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "173.864.507-02",
+      "data_nascimento": "21/05/2013",
+      "turma": "7º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "149997046411.0",
+    "nome": "LAIZA KETLYN FAÚLA DOS SANTOS",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "173.819.947-98",
+      "data_nascimento": "12/02/2013",
+      "turma": "6º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "168961514040.0",
+    "nome": "IZABELLA SOARES DE OLIVEIRA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "179.436.287-80",
+      "data_nascimento": "23/07/2013",
+      "turma": "7º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "124927720127.0",
+    "nome": "IVAN SIQUEIRA SAGRILLO",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "174.521.087-36",
+      "data_nascimento": "09/07/2013",
+      "turma": "7º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "130071741800.0",
+    "nome": "ENZO FERREIRA CREMA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "173.166.927-58",
+      "data_nascimento": "17/09/2012",
+      "turma": "7º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "183212032218.0",
+    "nome": "DIEFERSON DO ESPIRITO SANTO MOREIRA DA SILVA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "064.059.617-70",
+      "data_nascimento": "24/04/2013",
+      "turma": "7º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "177790820329.0",
+    "nome": "DHIONY PEREIRA DE OLIVEIRA TAVARES",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "175.687.017-94",
+      "data_nascimento": "11/09/2013",
+      "turma": "7º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "130126886252.0",
+    "nome": "DAVI MENEGASSI SILVA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "189.727.477-77",
+      "data_nascimento": "06/01/2013",
+      "turma": "7º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "178197606217.0",
+    "nome": "DAVI AUGUSTO DE SOUSA SILVA DE OLIVEIRA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "175.952.977-02",
+      "data_nascimento": "27/07/2013",
+      "turma": "7º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "124907053427.0",
+    "nome": "DANIEL DIAS FIRME",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "176.492.957-88",
+      "data_nascimento": "23/08/2013",
+      "turma": "7º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "149923173835.0",
+    "nome": "DANIEL BOREL LOPES",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "178.588.987-79",
+      "data_nascimento": "22/01/2014",
+      "turma": "7º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "125017428851.0",
+    "nome": "CARLOS EDUARDO DOS SANTOS COUTINHO",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "218.980.127-33",
+      "data_nascimento": "19/09/2012",
+      "turma": "7º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "149924335375.0",
+    "nome": "BRYAN RONCATI MOREIRA DE CASTRO SILVA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "174.850.337-51",
+      "data_nascimento": "12/07/2013",
+      "turma": "7º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "130107447575.0",
+    "nome": "ARTHUR FELIX SEPULCHRO",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "180.692.947-36",
+      "data_nascimento": "30/05/2013",
+      "turma": "7º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "127412492704.0",
+    "nome": "ALICE LAPORTE DAS NEVES",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "175.167.707-95",
+      "data_nascimento": "22/07/2013",
+      "turma": "7º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "130070904668.0",
+    "nome": "MARIA VICTÓRIA DE PAULA CARVALHO",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "187.958.857-90",
+      "data_nascimento": "10/05/2014",
+      "turma": "6º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "144795662958.0",
+    "nome": "MARCIA EDUARDA SANTOS AUGUSTO",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "185.451.037-19",
+      "data_nascimento": "18/03/2015",
+      "turma": "6º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "130402716280.0",
+    "nome": "KAUÃ DOUGLAS FONTANA DE SOUSA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "209.562.517-06",
+      "data_nascimento": "09/03/2013",
+      "turma": "6º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "185174712026.0",
+    "nome": "IZABELLY QUEPPI ROMUALDO",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "181.065.037-20",
+      "data_nascimento": "05/05/2014",
+      "turma": "6º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "130084587856.0",
+    "nome": "HENZO LUCAS GOMES DA COSTA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "175.892.347-45",
+      "data_nascimento": "18/09/2013",
+      "turma": "6º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "149923233595.0",
+    "nome": "EMILYN DOS REIS PIRES",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "175.094.747-10",
+      "data_nascimento": "03/08/2013",
+      "turma": "6º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "157665867102.0",
+    "nome": "DARLENE HELENA DAS GRAÇAS AURELIO",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "169.228.386-37",
+      "data_nascimento": "16/06/2013",
+      "turma": "6º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "130051770171.0",
+    "nome": "ARTHUR FILIPE SCHMIDT TRANCOSO DO COUTO",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "180.152.007-09",
+      "data_nascimento": "21/05/2014",
+      "turma": "6º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "130069079497.0",
+    "nome": "ANA CLARA BARBOSA MALLAGUETTI",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "184.216.627-16",
+      "data_nascimento": "02/01/2015",
+      "turma": "6º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "130287712094.0",
+    "nome": "AMANDA BRAGATTO DIAS",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "185.494.637-44",
+      "data_nascimento": "05/03/2015",
+      "turma": "6º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "150870732802.0",
+    "nome": "ALLAN CUSTÓDIO DE OLIVEIRA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "175.946.747-23",
+      "data_nascimento": "07/08/2013",
+      "turma": "6º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "130070984246.0",
+    "nome": "STHÉR VICTÓRIA DE MOURA SOUZA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "182.629.757-07",
+      "data_nascimento": "17/09/2014",
+      "turma": "6º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "130070946662.0",
+    "nome": "PIETRO VENDRAMINI ARRIGONI",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "185.009.287-78",
+      "data_nascimento": "26/02/2015",
+      "turma": "6º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "130070932793.0",
+    "nome": "NICOLLY VALENTYNNA RODRIGUES BARBOSA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "185.832.757-18",
+      "data_nascimento": "23/03/2015",
+      "turma": "6º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "130070915430.0",
+    "nome": "MIGUEL GONÇALVES COSTA ORTULAN",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "183.983.907-43",
+      "data_nascimento": "03/01/2015",
+      "turma": "6º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "144731054310.0",
+    "nome": "MARIA ELIZA VIEIRA LIMA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "182.745.487-36",
+      "data_nascimento": "26/09/2014",
+      "turma": "6º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "130278041034.0",
+    "nome": "MAICON DOUGLAS DIAS SANTOS",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "115.734.705-38",
+      "data_nascimento": "06/06/2012",
+      "turma": "6º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "130478361326.0",
+    "nome": "LAURA DO NASCIMENTO RESENDE",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "176.294.617-39",
+      "data_nascimento": "24/10/2013",
+      "turma": "6º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "177816694953.0",
+    "nome": "KAUAN ORTULAN DO NASCIMENTO",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "180.318.107-96",
+      "data_nascimento": "02/06/2014",
+      "turma": "6º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "178481650357.0",
+    "nome": "JOAO MIGUELL NOGUEIRA LIMA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "180.155.857-40",
+      "data_nascimento": "28/04/2014",
+      "turma": "6º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "185487336830.0",
+    "nome": "HENRY GUSTAVO DOS SANTOS TEIXEIRA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "090.562.305-30",
+      "data_nascimento": "14/06/2013",
+      "turma": "6º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "187345033235.0",
+    "nome": "GUILHERME BELING GUIMARÃES",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "216.026.017-71",
+      "data_nascimento": "31/07/2014",
+      "turma": "6º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "183562292197.0",
+    "nome": "GABRIEL FERREIRA MATTOS",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "184.378.067-47",
+      "data_nascimento": "14/01/2015",
+      "turma": "6º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "130051807199.0",
+    "nome": "FELIPE LIMA DOS SANTOS",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "178.374.277-18",
+      "data_nascimento": "13/01/2014",
+      "turma": "6º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "149925363011.0",
+    "nome": "EVELLYN VENANCIO SANTANA JERONIMO",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "175.811.227-19",
+      "data_nascimento": "24/09/2013",
+      "turma": "6º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "175937584006.0",
+    "nome": "EMANUELLY CELESTRINO BERGER",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "184.294.467-37",
+      "data_nascimento": "14/01/2015",
+      "turma": "6º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "130104198809.0",
+    "nome": "DAVI PRETTI HADDAD DA CRUZ",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "182.450.537-08",
+      "data_nascimento": "18/09/2014",
+      "turma": "6º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "150782161382.0",
+    "nome": "CARLOS ALEXANDRE DO NASCIMENTO SILVA VALERIANO",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "183.183.347-60",
+      "data_nascimento": "15/10/2014",
+      "turma": "6º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "242222681942.0",
+    "nome": "BRYAN LORENÇONI CHIEPPE",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "019.120.877-90",
+      "data_nascimento": "07/10/2014",
+      "turma": "6º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "183269227492.0",
+    "nome": "BERNARDO DOS SANTOS AVANCINI",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "186.373.897-59",
+      "data_nascimento": "31/03/2015",
+      "turma": "6º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "177811524766.0",
+    "nome": "ARTHUR RODRIGUES DOS SANTOS MANEA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "180.860.967-00",
+      "data_nascimento": "06/07/2014",
+      "turma": "6º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "130047973055.0",
+    "nome": "ALEXANDRE FERREIRA DE MORAIS JUNIOR",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "179.439.727-24",
+      "data_nascimento": "11/04/2014",
+      "turma": "6º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "178425581752.0",
+    "nome": "AGATHA RIBEIRO SOARES",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "185.493.107-51",
+      "data_nascimento": "22/03/2015",
+      "turma": "6º ANO ÚNICA",
+      "turno": "MATUTINO"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "149926929825.0",
+    "nome": "WESLLEY GOMES ROSA MARTINS",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "219.026.757-97",
+      "data_nascimento": "31/03/2016",
+      "turma": "4º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "186210941850.0",
+    "nome": "ROBERTA DE OLIVEIRA ARANHA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "204.059.577-50",
+      "data_nascimento": "01/12/2015",
+      "turma": "5º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "178172025245.0",
+    "nome": "QUÉREN DOS SANTOS FERNANDES",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "187.274.717-56",
+      "data_nascimento": "02/07/2015",
+      "turma": "5º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "150208226558.0",
+    "nome": "MARIA LUIZA DA SILVA ALVES",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "186.274.537-48",
+      "data_nascimento": "14/05/2015",
+      "turma": "5º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "178424077970.0",
+    "nome": "MARIA CECILHA BATISTA MAGESCHI",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "187.684.257-16",
+      "data_nascimento": "27/07/2015",
+      "turma": "5º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "177811264322.0",
+    "nome": "LAURA OLIVEIRA COMIM PEREIRA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "186.342.927-11",
+      "data_nascimento": "14/05/2015",
+      "turma": "5º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "157172277103.0",
+    "nome": "KAIKE SOARES DE OLIVEIRA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "190.986.827-23",
+      "data_nascimento": "12/01/2016",
+      "turma": "5º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "183211225586.0",
+    "nome": "JEFERSON DO ESPIRITO SANTO MOREIRA DA SILVA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "064.059.607-06",
+      "data_nascimento": "25/04/2014",
+      "turma": "5º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "150215239295.0",
+    "nome": "HEITOR PEREIRA DE ALMEIDA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "063.394.677-09",
+      "data_nascimento": "17/08/2015",
+      "turma": "5º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "169020268820.0",
+    "nome": "ENZO GABRIEL GONÇALVES DA SILVA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "181.459.566-09",
+      "data_nascimento": "14/08/2015",
+      "turma": "5º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "177813340867.0",
+    "nome": "ARTHUR CUSTÓDIO DE OLIVEIRA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "186.104.017-23",
+      "data_nascimento": "02/05/2015",
+      "turma": "5º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "151179389092.0",
+    "nome": "ANTONELA MEIRELES FERRI",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "189.790.747-86",
+      "data_nascimento": "16/12/2015",
+      "turma": "5º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "130353644004.0",
+    "nome": "ANA LUIZA BRUNI MERELLIS",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "185.736.157-10",
+      "data_nascimento": "07/04/2015",
+      "turma": "5º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "178574006024.0",
+    "nome": "SAMUEL LIMA DA SILVA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "099.297.905-60",
+      "data_nascimento": "24/11/2012",
+      "turma": "5º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "183460994281.0",
+    "nome": "MARIA CLARA FERREIRA ALVES DE JESUS",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "186.904.847-44",
+      "data_nascimento": "08/05/2015",
+      "turma": "5º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "183119204942.0",
+    "nome": "LUAN DE ARAUJO NICCHIO",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "186.702.827-12",
+      "data_nascimento": "26/05/2015",
+      "turma": "5º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "150214951943.0",
+    "nome": "LAURA EMANUELE DE JESUS SILVA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "191.048.007-02",
+      "data_nascimento": "27/01/2016",
+      "turma": "5º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "176335710209.0",
+    "nome": "KALLEBY PAIXÃO DE SOUZA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "190.077.737-12",
+      "data_nascimento": "25/08/2015",
+      "turma": "5º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "178492189303.0",
+    "nome": "JOSÉ FERNANDO CARNEIRO DA VICTORIA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "188.540.937-00",
+      "data_nascimento": "23/09/2015",
+      "turma": "5º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "177814990261.0",
+    "nome": "JOAO LUCAS JACOBSN FELICIANO",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "206.538.097-78",
+      "data_nascimento": "09/10/2015",
+      "turma": "5º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "178704181963.0",
+    "nome": "JADSON MUNIZ DOS SANTOS",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "217.992.697-95",
+      "data_nascimento": "31/10/2015",
+      "turma": "5º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "183215147741.0",
+    "nome": "HEITOR SOUTO MEDINA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "152.867.906-74",
+      "data_nascimento": "29/10/2015",
+      "turma": "5º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "183572158159.0",
+    "nome": "HEITOR FERREIRA BARBOSA RAMOS",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "206.184.607-64",
+      "data_nascimento": "07/08/2014",
+      "turma": "5º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "150846498811.0",
+    "nome": "HEITOR EDUARDO OLIVEIRA DE SOUZA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "189.123.227-45",
+      "data_nascimento": "23/10/2015",
+      "turma": "5º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "183119986126.0",
+    "nome": "GABRIEL COBILENSKI",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "190.853.517-23",
+      "data_nascimento": "06/02/2016",
+      "turma": "5º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "152008301094.0",
+    "nome": "FERNANDA GABRIELLY DOS SANTOS BORGES",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "188.981.667-10",
+      "data_nascimento": "27/06/2014",
+      "turma": "5º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "150214694797.0",
+    "nome": "ESTHER PAVANI DE ALVARENGA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "189.540.047-33",
+      "data_nascimento": "30/11/2015",
+      "turma": "5º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "183114818063.0",
+    "nome": "ESTÊVÃO ROBERTO DE OLIVEIRA SIMÕES",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "186.997.327-59",
+      "data_nascimento": "21/06/2015",
+      "turma": "5º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "183272896596.0",
+    "nome": "DAVI LUÍS MEDEIROS DE SOUZA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "190.879.317-19",
+      "data_nascimento": "03/02/2016",
+      "turma": "5º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "177812748579.0",
+    "nome": "CRYSTIAN PEREIRA LIBERATO DE JESUS",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "191.345.237-90",
+      "data_nascimento": "03/03/2016",
+      "turma": "5º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "149976444477.0",
+    "nome": "BERNARDO BATISTA OLIVEIRA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "190.875.597-04",
+      "data_nascimento": "27/01/2016",
+      "turma": "5º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "183045395006.0",
+    "nome": "YAGO SOARES SIQUEIRA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "207.257.417-08",
+      "data_nascimento": "05/07/2016",
+      "turma": "4º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "184906504549.0",
+    "nome": "TAYLA BRUNOW BRÊDA DA SILVA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "206.552.597-59",
+      "data_nascimento": "23/12/2016",
+      "turma": "4º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "178696405900.0",
+    "nome": "SOPHIA CORDEIRO NERY",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "192.913.677-37",
+      "data_nascimento": "14/05/2016",
+      "turma": "4º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "185348545308.0",
+    "nome": "RUTILAINE DE LOURDES PRIMO SANTOS",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "209.811.757-40",
+      "data_nascimento": "11/02/2017",
+      "turma": "4º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "183298914028.0",
+    "nome": "NICOLLY MARTINELLI DELPRETI",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "195.256.897-86",
+      "data_nascimento": "05/09/2016",
+      "turma": "4º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "175064014952.0",
+    "nome": "MIGUEL MENEGASSI SILVA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "195.217.457-03",
+      "data_nascimento": "19/08/2016",
+      "turma": "4º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "193437854533.0",
+    "nome": "MARCOS FELIPE OLIVEIRA DOS SANTOS",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "220.541.347-32",
+      "data_nascimento": "20/05/2016",
+      "turma": "4º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "183132605211.0",
+    "nome": "LUÍZA RIMEDO BARBOSA DE FARIAS",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "195.823.777-98",
+      "data_nascimento": "31/10/2016",
+      "turma": "4º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "242222682167.0",
+    "nome": "KATHELYN VICTORIA FERREIRA BASTOS",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "003.180.197-87",
+      "data_nascimento": "07/09/2016",
+      "turma": "4º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "177809076603.0",
+    "nome": "JOÃO LUCCA DE SOUZA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "194.108.697-73",
+      "data_nascimento": "01/07/2016",
+      "turma": "4º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "183447828136.0",
+    "nome": "JOÃO LUCAS SANTOS PIRES",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "197.564.247-37",
+      "data_nascimento": "04/12/2016",
+      "turma": "4º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "183131949790.0",
+    "nome": "FELLYPE DOS REIS CALCI",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "063.778.947-40",
+      "data_nascimento": "11/04/2016",
+      "turma": "4º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "185533481728.0",
+    "nome": "EMANUEL SANTOS DA SILVA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "195.755.687-02",
+      "data_nascimento": "28/10/2016",
+      "turma": "4º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "192486631762.0",
+    "nome": "BERNARDO PAZULINI REZENDE KRETLI",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "197.925.687-00",
+      "data_nascimento": "26/01/2017",
+      "turma": "4º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "183131461259.0",
+    "nome": "ANA LUISA GONÇALVES FEITOSA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "192.685.617-19",
+      "data_nascimento": "12/04/2016",
+      "turma": "4º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "177793890069.0",
+    "nome": "TELSO SAMUEL MOURA SILVA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "167.620.856-95",
+      "data_nascimento": "19/01/2018",
+      "turma": "3º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "204747404390.0",
+    "nome": "OLIVER GOMES RODRIGUES",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "201.297.597-67",
+      "data_nascimento": "08/08/2017",
+      "turma": "3º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "185708581084.0",
+    "nome": "LAURA DAS NEVES LULIO",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "064.386.207-26",
+      "data_nascimento": "08/05/2017",
+      "turma": "3º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "184898865207.0",
+    "nome": "CECÍLIA FRANCO MORETHES",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "205.802.307-24",
+      "data_nascimento": "22/02/2018",
+      "turma": "3º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "183472328222.0",
+    "nome": "BERNARDO GOMES DO ROZARIO",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "193.666.417-84",
+      "data_nascimento": "21/06/2016",
+      "turma": "3º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "202975902601.0",
+    "nome": "ADÔNIS RIBEIRO FRANCO DOS SANTOS",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "203.271.397-73",
+      "data_nascimento": "13/11/2017",
+      "turma": "3º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "204412396760.0",
+    "nome": "THÉO TATAGIBA SCHADE",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "200.050.967-31",
+      "data_nascimento": "05/06/2017",
+      "turma": "3º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "183300280620.0",
+    "nome": "SARAH TOREZANI GOMES",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "204.167.077-00",
+      "data_nascimento": "08/12/2017",
+      "turma": "3º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "185082401636.0",
+    "nome": "NATANIEL SINVAL PRIMO SANTOS",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "206.179.187-59",
+      "data_nascimento": "03/03/2018",
+      "turma": "3º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "184899318870.0",
+    "nome": "MANOELA GOMES DALLAPICOLA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "204.847.277-02",
+      "data_nascimento": "15/01/2018",
+      "turma": "3º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "183299617965.0",
+    "nome": "ISAAC EMANUEL RIBEIRO CARVALHO",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "204.054.357-03",
+      "data_nascimento": "07/12/2017",
+      "turma": "3º ANO B",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "183300866404.0",
+    "nome": "HENRIQUE LEGORA BULLERJAHN",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "201.168.607-58",
+      "data_nascimento": "04/08/2017",
+      "turma": "3º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "204747414515.0",
+    "nome": "EZEQUIEL DE SOUSA SILVA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "064.792.047-60",
+      "data_nascimento": "30/05/2017",
+      "turma": "3º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "185083134623.0",
+    "nome": "EMANOELA SILVA BUENO",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "206.263.837-06",
+      "data_nascimento": "10/03/2018",
+      "turma": "3º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "183300653168.0",
+    "nome": "ELIZA GABRIELLE DA SILVA LIMA BARBOSA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "200.042.987-48",
+      "data_nascimento": "06/05/2017",
+      "turma": "3º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "193063672601.0",
+    "nome": "DOMINIC PEREIRA DE ALMEIDA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "203.858.457-58",
+      "data_nascimento": "30/11/2017",
+      "turma": "3º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "183418559335.0",
+    "nome": "BENJAMIN BASTIDA NASCIMENTO",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "199.489.947-60",
+      "data_nascimento": "06/05/2017",
+      "turma": "3º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "185082493140.0",
+    "nome": "ANNA BEATRIZ DO NASCIMENTO SILVA VALERIANO",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "202.852.517-75",
+      "data_nascimento": "29/10/2017",
+      "turma": "3º ANO A",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "204747404986.0",
+    "nome": "KETHELLEN VICTÓRIA PEREIRA DOS SANTOS",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "110.714.715-89",
+      "data_nascimento": "11/02/2019",
+      "turma": "2º ANO ÚNICA",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "184900997586.0",
+    "nome": "KAMILLY VITÓRIA LIMA PEREIRA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "207.247.887-19",
+      "data_nascimento": "04/04/2018",
+      "turma": "2º ANO ÚNICA",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "183601344059.0",
+    "nome": "KAIQUE BATISTA OLIVEIRA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "209.884.057-84",
+      "data_nascimento": "27/07/2018",
+      "turma": "2º ANO ÚNICA",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "204747412300.0",
+    "nome": "ISIS SANTOS DA SILVA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "207.297.007-55",
+      "data_nascimento": "14/04/2018",
+      "turma": "2º ANO ÚNICA",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "204814405349.0",
+    "nome": "HELOISA QUEPPI ROMUALDO",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "210.817.017-06",
+      "data_nascimento": "15/08/2018",
+      "turma": "2º ANO ÚNICA",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "185234246018.0",
+    "nome": "ENZO MACHADO TINELLI",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "212.066.717-93",
+      "data_nascimento": "02/11/2018",
+      "turma": "2º ANO ÚNICA",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "193185685171.0",
+    "nome": "EMANUELLY VITÓRIA FELIX BARCELOS",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "211.055.647-11",
+      "data_nascimento": "22/09/2018",
+      "turma": "2º ANO ÚNICA",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "204747405524.0",
+    "nome": "BERNARDO DOS SANTOS SERPA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "208.411.437-30",
+      "data_nascimento": "27/05/2018",
+      "turma": "2º ANO ÚNICA",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "204747405281.0",
+    "nome": "BERNARDO CASTELUBER DOS SANTOS",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "207.287.337-14",
+      "data_nascimento": "13/04/2018",
+      "turma": "2º ANO ÚNICA",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "184900848823.0",
+    "nome": "BEATRIZ VALLENTINA DE PAULA CARVALHO",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "209.679.917-14",
+      "data_nascimento": "13/07/2018",
+      "turma": "2º ANO ÚNICA",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "184900831939.0",
+    "nome": "ARTHUR MERLO GONÇALVES",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "213.059.187-62",
+      "data_nascimento": "26/12/2018",
+      "turma": "2º ANO ÚNICA",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "192486526624.0",
+    "nome": "ARTHUR CAMARGO BALBINO",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "210.936.707-54",
+      "data_nascimento": "17/09/2018",
+      "turma": "2º ANO ÚNICA",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "227641032638.0",
+    "nome": "ANNALU ALMEIDA DE SOUZA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "212.960.597-40",
+      "data_nascimento": "20/12/2018",
+      "turma": "2º ANO ÚNICA",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "205201475610.0",
+    "nome": "ANNA VICTORIA DA SILVA MARTINS DE ARAUJO",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "208.459.937-71",
+      "data_nascimento": "04/06/2018",
+      "turma": "2º ANO ÚNICA",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "183520941901.0",
+    "nome": "ALICE ELER FERREIRA ALVARENGA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "210.279.827-51",
+      "data_nascimento": "08/08/2018",
+      "turma": "2º ANO ÚNICA",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "204747459454.0",
+    "nome": "ADRYAN LANES SOUZA PEREIRA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "212.064.617-13",
+      "data_nascimento": "07/11/2018",
+      "turma": "2º ANO ÚNICA",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "204747408892.0",
+    "nome": "PYETRA DE MORAES ALVES DOS SANTOS",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "218.210.227-26",
+      "data_nascimento": "09/08/2019",
+      "turma": "1º ANO ÚNICA",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "192814545301.0",
+    "nome": "MAITÊ LYS DE SOUZA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "219.663.667-36",
+      "data_nascimento": "02/12/2019",
+      "turma": "1º ANO ÚNICA",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "204747412571.0",
+    "nome": "LAURA MOREIRA CORRÁ",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "217.670.407-09",
+      "data_nascimento": "10/07/2019",
+      "turma": "1º ANO ÚNICA",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "193735979300.0",
+    "nome": "HENRIQUE MIGUEL SCHMIDT TRANCOSO TORRES",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "220.860.987-58",
+      "data_nascimento": "26/02/2020",
+      "turma": "1º ANO ÚNICA",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "192803573953.0",
+    "nome": "ÁGATHA VITÓRIA OTONE DE SOUZA",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "216.910.037-78",
+      "data_nascimento": "14/06/2019",
+      "turma": "1º ANO ÚNICA",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "204747415244.0",
+    "nome": "MIGUEL SCHIMIDT MACHADO",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "219.561.297-58",
+      "data_nascimento": "06/12/2019",
+      "turma": "1º ANO ÚNICA",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "204747408388.0",
+    "nome": "MARIA LAURA FERREIRA PIRES",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "220.226.387-00",
+      "data_nascimento": "22/01/2020",
+      "turma": "1º ANO ÚNICA",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "215733677293.0",
+    "nome": "EVANDRO FERREIRA SANTOS PAIOM",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "217.188.747-82",
+      "data_nascimento": "08/07/2019",
+      "turma": "1º ANO ÚNICA",
+      "turno": "INTEGRAL"
+    },
+    "censo": null,
+    "divergencias": []
+  },
+  {
+    "id": "Usuário: ELIENAI PARANHO CANALLI - Relatório gerado em: 29/07/2026 09:29:08 - Total de registros: 267",
+    "nome": "Usuário: ELIENAI PARANHO CANALLI - Relatório gerado em: 29/07/2026 09:29:08 - Total de registros: 267",
+    "status": "APENAS_ESCOLA",
+    "escola": {
+      "cpf": "",
+      "data_nascimento": "",
+      "turma": "",
+      "turno": ""
+    },
+    "censo": null,
+    "divergencias": []
+  }
+]
