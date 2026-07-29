@@ -26,7 +26,7 @@ def process_school_excel(excel_path):
     students = []
     for _, row in df.iterrows():
         nome = clean_val(row.get('Nome'))
-        if not nome:
+        if not nome or "Relatório gerado" in nome or "Usuário" in nome:
             continue
             
         student = {

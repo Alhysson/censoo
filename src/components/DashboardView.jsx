@@ -123,17 +123,26 @@ export default function DashboardView({ students, onRefresh, theme }) {
   };
 
   // 4. Turnos (Doughnut chart)
-  const turnoCounts = { 'MATUTINO': 0, 'VESPERTINO': 0 };
+  const turnoCounts = {};
   students.forEach(s => {
-    if (s['Turno'] === 'MATUTINO') turnoCounts['MATUTINO']++;
-    else if (s['Turno'] === 'VESPERTINO') turnoCounts['VESPERTINO']++;
+    let val = s['Turno'] || 'Não Informado';
+    val = val.toUpperCase();
+    turnoCounts[val] = (turnoCounts[val] || 0) + 1;
+  });
+
+  const turnoLabels = Object.keys(turnoCounts);
+  const turnoBgColors = turnoLabels.map(l => {
+    if(l === 'MATUTINO') return chartColors.blue.bg;
+    if(l === 'VESPERTINO') return chartColors.amber.bg;
+    if(l === 'INTEGRAL') return chartColors.emerald.bg;
+    return chartColors.grey.bg;
   });
 
   const turnosChartData = {
-    labels: ['Matutino', 'Vespertino'],
+    labels: turnoLabels.map(l => l.charAt(0) + l.slice(1).toLowerCase()),
     datasets: [{
-      data: [turnoCounts['MATUTINO'], turnoCounts['VESPERTINO']],
-      backgroundColor: [chartColors.blue.bg, chartColors.amber.bg],
+      data: Object.values(turnoCounts),
+      backgroundColor: turnoBgColors,
       borderColor: isDark ? '#13151b' : '#ffffff',
       borderWidth: 2
     }]
