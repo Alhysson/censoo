@@ -6,7 +6,12 @@ from convert_ubaldo_pdf import extract_censo_students, build_comparison, PDF_CEN
 def clean_val(x):
     if pd.isnull(x):
         return ""
-    return str(x).strip()
+    val = str(x).strip()
+    if val.endswith('.0'):
+        val = val[:-2]
+    if val in ['-', '--', '---', 'N/A', 'Não', 'None', 'nan', 'NaN', 'NaT']:
+        return ""
+    return val
 
 def process_school_excel(excel_path):
     print(f"Lendo dados da escola do Excel: {excel_path}")
@@ -18,7 +23,7 @@ def process_school_excel(excel_path):
     students = []
     for _, row in df.iterrows():
         nome = clean_val(row.get('Nome'))
-        if not nome or str(nome).upper() == 'NAN':
+        if not nome or "Relatório gerado" in nome or "Usuário" in nome:
             continue
             
         student = {

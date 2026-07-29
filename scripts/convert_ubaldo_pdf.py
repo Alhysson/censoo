@@ -14,7 +14,7 @@ import pdfplumber
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 PDF_SCHOOL = os.path.join(BASE_DIR, "listMatriculaAluno- Ubaldo Ramalhete.pdf")
-PDF_CENSO  = os.path.join(BASE_DIR, "RelacaoAlunoEscola_28_7_2026.pdf")
+PDF_CENSO  = os.path.join(BASE_DIR, "RelacaoAlunoEscola_28_7_2026 (1).pdf")
 
 OUT_STUDENTS   = os.path.join(BASE_DIR, "data", "students_ubaldo.json")
 OUT_COMPARISON = os.path.join(BASE_DIR, "data", "comparison_ubaldo.json")
