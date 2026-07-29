@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matilde Guerra - Plataforma Escolar</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- CSS Customizado -->
+    <link rel="stylesheet" href="index.css">
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="dark-theme">
+    <div class="app-container">
+        
+        <!-- Sidebar lateral -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="logo-container">
+                    <div class="logo-icon">
+                        <i data-lucide="graduation-cap"></i>
+                    </div>
+                    <div class="logo-text">
+                        <h1>Matilde Guerra</h1>
+                        <span>Gestão Escolar</span>
+                    </div>
+                </div>
+            </div>
+
+            <nav class="sidebar-nav">
+                <ul>
+                    <li class="nav-item active" data-target="view-dashboard">
+                        <a href="#">
+                            <i data-lucide="layout-dashboard"></i>
+                            <span>Painel Geral</span>
+                        </a>
+                    </li>
+                    <li class="nav-item" data-target="view-students">
+                        <a href="#">
+                            <i data-lucide="users"></i>
+                            <span>Alunos</span>
+                        </a>
+                    </li>
+                    <li class="nav-item" data-target="view-classes">
+                        <a href="#">
+                            <i data-lucide="door-open"></i>
+                            <span>Turmas</span>
+                        </a>
+                    </li>
+                    <li class="nav-item" data-target="view-analytics">
+                        <a href="#">
+                            <i data-lucide="bar-chart-3"></i>
+                            <span>Análise de Dados</span>
+                        </a>
+                    </li>
+                    <li class="nav-item" data-target="view-comparison">
+                        <a href="#">
+                            <i data-lucide="git-compare"></i>
+                            <span>Comparação Censo</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="sidebar-footer">
+                <div class="theme-toggle-container">
+                    <span class="theme-label">Tema Escuro</span>
+                    <button class="theme-toggle-btn" id="theme-toggle-btn" aria-label="Alternar Tema">
+                        <span class="toggle-slider"></span>
+                    </button>
+                </div>
+                <div class="school-badge">
+                    <p class="school-name">Profª Matilde Guerra Comério</p>
+                    <p class="school-city">Colatina - ES</p>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Painel principal -->
+        <main class="main-content">
+            
+            <!-- Barra superior -->
+            <header class="topbar">
+                <div class="topbar-search">
+                    <div class="search-input-wrapper">
+                        <i data-lucide="search" class="search-icon-top"></i>
+                        <input type="text" id="global-search-input" placeholder="Buscar aluno por nome, CPF ou matrícula...">
+                    </div>
+                </div>
+                <div class="topbar-actions">
+                    <div class="current-date">
+                        <i data-lucide="calendar"></i>
+                        <span id="date-display">Carregando...</span>
+                    </div>
+                    <div class="user-profile">
+                        <div class="avatar">
+                            <span>ADM</span>
+                        </div>
+                        <div class="profile-info">
+                            <span class="profile-name">Secretaria</span>
+                            <span class="profile-role">Administrador</span>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- CONTEÚDO DINÂMICO -->
+            <div class="content-body">
+                
+                <!-- VIEW 1: DASHBOARD -->
+                <section id="view-dashboard" class="content-view active">
+                    <div class="view-header animate-fade-in">
+                        <div>
+                            <h2>Painel Geral</h2>
+                            <p>Estatísticas rápidas e visão geral do censo escolar.</p>
+                        </div>
+                        <button class="btn btn-primary btn-icon" id="dashboard-refresh-btn">
+                            <i data-lucide="refresh-cw"></i>
+                            <span>Atualizar Dados</span>
+                        </button>
+                    </div>
+
+                    <!-- Cartões de Indicadores (KPIs) -->
+                    <div class="kpi-grid animate-fade-in">
+                        <div class="kpi-card glass">
+                            <div class="kpi-icon-wrapper color-violet">
+                                <i data-lucide="users"></i>
+                            </div>
+                            <div class="kpi-info">
+                                <span class="kpi-label">Total de Alunos</span>
+                                <h3 class="kpi-value" id="kpi-total-students">-</h3>
+                                <span class="kpi-subtext" id="kpi-active-students-sub">Ativos no Censo</span>
+                            </div>
+                        </div>
+                        <div class="kpi-card glass">
+                            <div class="kpi-icon-wrapper color-blue">
+                                <i data-lucide="baby"></i>
+                            </div>
+                            <div class="kpi-info">
+                                <span class="kpi-label">Educação Infantil</span>
+                                <h3 class="kpi-value" id="kpi-infantil">-</h3>
+                                <span class="kpi-subtext" id="kpi-infantil-pct">-</span>
+                            </div>
+                        </div>
+                        <div class="kpi-card glass">
+                            <div class="kpi-icon-wrapper color-green">
+                                <i data-lucide="book-open"></i>
+                            </div>
+                            <div class="kpi-info">
+                                <span class="kpi-label">Ensino Fundamental</span>
+                                <h3 class="kpi-value" id="kpi-fundamental">-</h3>
+                                <span class="kpi-subtext" id="kpi-fundamental-pct">-</span>
+                            </div>
+                        </div>
+                        <div class="kpi-card glass">
+                            <div class="kpi-icon-wrapper color-amber">
+                                <i data-lucide="heart-handshake"></i>
+                            </div>
+                            <div class="kpi-info">
+                                <span class="kpi-label">Bolsa Família</span>
+                                <h3 class="kpi-value" id="kpi-bolsa-familia">-</h3>
+                                <span class="kpi-subtext" id="kpi-bolsa-pct">-</span>
+                            </div>
+                        </div>
+                        <div class="kpi-card glass">
+                            <div class="kpi-icon-wrapper color-red">
+                                <i data-lucide="accessibility"></i>
+                            </div>
+                            <div class="kpi-info">
+                                <span class="kpi-label">Atendimento AEE/PCD</span>
+                                <h3 class="kpi-value" id="kpi-aee">-</h3>
+                                <span class="kpi-subtext" id="kpi-aee-pct">-</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Grid de Gráficos -->
+                    <div class="dashboard-grid animate-fade-in">
+                        <div class="chart-card glass col-span-2">
+                            <div class="chart-header">
+                                <h4>Distribuição de Matrículas por Etapa de Ensino</h4>
+                                <span class="chart-subtitle">Quantidade de alunos em cada série</span>
+                            </div>
+                            <div class="chart-body">
+                                <canvas id="chart-etapas"></canvas>
+                            </div>
+                        </div>
+
+                        <div class="chart-card glass">
+                            <div class="chart-header">
+                                <h4>Alunos por Turno</h4>
+                                <span class="chart-subtitle">Período de aula</span>
+                            </div>
+                            <div class="chart-body-pie">
+                                <canvas id="chart-turnos"></canvas>
+                            </div>
+                        </div>
+
+                        <div class="chart-card glass">
+                            <div class="chart-header">
+                                <h4>Gênero dos Alunos</h4>
+                                <span class="chart-subtitle">Sexo declarado</span>
+                            </div>
+                            <div class="chart-body-pie">
+                                <canvas id="chart-sexo"></canvas>
+                            </div>
+                        </div>
+
+                        <div class="chart-card glass col-span-2">
+                            <div class="chart-header">
+                                <h4>Distribuição por Raça/Cor</h4>
+                                <span class="chart-subtitle">Autodeclaração étnica</span>
+                            </div>
+                            <div class="chart-body">
+                                <canvas id="chart-cor"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- VIEW 2: ALUNOS (DIRETÓRIO) -->
+                <section id="view-students" class="content-view">
+                    <div class="view-header">
+                        <div>
+                            <h2>Diretório de Alunos</h2>
+                            <p>Consulte, filtre e acesse a ficha completa de cada estudante.</p>
+                        </div>
+                        <div class="view-header-actions">
+                            <button class="btn btn-secondary btn-icon" id="btn-export-excel">
+                                <i data-lucide="download"></i>
+                                <span>Exportar CSV</span>
+                            </button>
+                            <button class="btn btn-primary btn-icon" id="btn-new-student-dummy" style="display:none;">
+                                <i data-lucide="plus"></i>
+                                <span>Novo Aluno</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Filtros do Diretório -->
+                    <div class="filters-panel glass animate-fade-in">
+                        <div class="filters-grid">
+                            <div class="filter-group text-search-group">
+                                <label for="filter-search">Pesquisa Direta</label>
+                                <div class="filter-input-wrapper">
+                                    <i data-lucide="search"></i>
+                                    <input type="text" id="filter-search" placeholder="Nome, CPF ou Matrícula...">
+                                </div>
+                            </div>
+                            <div class="filter-group">
+                                <label for="filter-etapa">Série / Etapa</label>
+                                <select id="filter-etapa">
+                                    <option value="">Todas</option>
+                                    <!-- Dinâmico -->
+                                </select>
+                            </div>
+                            <div class="filter-group">
+                                <label for="filter-turno">Turno</label>
+                                <select id="filter-turno">
+                                    <option value="">Todos</option>
+                                    <option value="MATUTINO">Matutino</option>
+                                    <option value="VESPERTINO">Vespertino</option>
+                                </select>
+                            </div>
+                            <div class="filter-group">
+                                <label for="filter-turma">Turma</label>
+                                <select id="filter-turma">
+                                    <option value="">Todas</option>
+                                    <!-- Dinâmico -->
+                                </select>
+                            </div>
+                            <div class="filter-group">
+                                <label for="filter-bolsa">Bolsa Família</label>
+                                <select id="filter-bolsa">
+                                    <option value="">Todos</option>
+                                    <option value="Sim">Sim</option>
+                                    <option value="Não">Não</option>
+                                </select>
+                            </div>
+                            <div class="filter-group">
+                                <label for="filter-pcd">PCD / Deficiência</label>
+                                <select id="filter-pcd">
+                                    <option value="">Todos</option>
+                                    <option value="Sim">Sim</option>
+                                    <option value="Não">Não</option>
+                                </select>
+                            </div>
+                            <div class="filter-group">
+                                <label for="filter-situacao">Situação</label>
+                                <select id="filter-situacao">
+                                    <option value="">Todas</option>
+                                    <option value="NORMAL">Normal</option>
+                                    <option value="TRANSFERIDO">Transferido</option>
+                                    <option value="DESISTENTE">Desistente</option>
+                                </select>
+                            </div>
+                            <div class="filter-group btn-clear-group">
+                                <button class="btn btn-secondary btn-full" id="btn-clear-filters">
+                                    <i data-lucide="filter-x"></i>
+                                    <span>Limpar Filtros</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tabela de Resultados -->
+                    <div class="table-container glass animate-fade-in">
+                        <div class="table-responsive">
+                            <table class="students-table">
+                                <thead>
+                                    <tr>
+                                        <th>Matrícula</th>
+                                        <th>Nome do Aluno</th>
+                                        <th>Etapa de Ensino</th>
+                                        <th>Turma</th>
+                                        <th>Turno</th>
+                                        <th>Idade</th>
+                                        <th>Status</th>
+                                        <th class="text-right">Ações</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="students-table-body">
+                                    <!-- Linhas geradas dinamicamente -->
+                                    <tr>
+                                        <td colspan="8" class="text-center py-8">Carregando dados dos alunos...</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <!-- Controle de Paginação -->
+                        <div class="table-pagination">
+                            <div class="pagination-info">
+                                Mostrando <span id="pagination-start">0</span> a <span id="pagination-end">0</span> de <span id="pagination-total">0</span> alunos.
+                            </div>
+                            <div class="pagination-controls">
+                                <div class="rows-per-page">
+                                    <span>Linhas por página:</span>
+                                    <select id="rows-per-page-select">
+                                        <option value="10">10</option>
+                                        <option value="25" selected>25</option>
+                                        <option value="50">50</option>
+                                        <option value="100">100</option>
+                                    </select>
+                                </div>
+                                <div class="pagination-buttons">
+                                    <button class="btn btn-pagination" id="btn-page-prev" aria-label="Página Anterior">
+                                        <i data-lucide="chevron-left"></i>
+                                    </button>
+                                    <span class="page-indicator" id="page-indicator">Pág. 1 de 1</span>
+                                    <button class="btn btn-pagination" id="btn-page-next" aria-label="Próxima Página">
+                                        <i data-lucide="chevron-right"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- VIEW 3: TURMAS -->
+                <section id="view-classes" class="content-view">
+                    <div class="view-header">
+                        <div>
+                            <h2>Divisão de Turmas</h2>
+                            <p>Visualização agrupada por turmas e análise de lotação.</p>
+                        </div>
+                    </div>
+
+                    <!-- Lista de cartões de turmas -->
+                    <div class="classes-grid animate-fade-in" id="classes-cards-container">
+                        <!-- Gerado dinamicamente -->
+                    </div>
+                </section>
+
+                <!-- VIEW 4: ANALYTICS -->
+                <section id="view-analytics" class="content-view">
+                    <div class="view-header">
+                        <div>
+                            <h2>Análise de Dados Avançada</h2>
+                            <p>Relatórios demográficos, distribuição por bairro e de saúde.</p>
+                        </div>
+                    </div>
+
+                    <div class="dashboard-grid animate-fade-in">
+                        <!-- Distribuição Geográfica (Bairros) -->
+                        <div class="chart-card glass col-span-2">
+                            <div class="chart-header">
+                                <h4>Concentração de Alunos por Bairro (Top 10 Bairros)</h4>
+                                <span class="chart-subtitle">Residência dos alunos matriculados</span>
+                            </div>
+                            <div class="chart-body" style="height: 350px;">
+                                <canvas id="chart-bairros"></canvas>
+                            </div>
+                        </div>
+
+                        <!-- Idade dos Alunos -->
+                        <div class="chart-card glass">
+                            <div class="chart-header">
+                                <h4>Distribuição por Idade Atual</h4>
+                                <span class="chart-subtitle">Faixa etária da escola</span>
+                            </div>
+                            <div class="chart-body">
+                                <canvas id="chart-idades"></canvas>
+                            </div>
+                        </div>
+
+                        <!-- Bolsa Família x Outros -->
+                        <div class="chart-card glass">
+                            <div class="chart-header">
+                                <h4>Necessidades Especiais (TEA/PCD)</h4>
+                                <span class="chart-subtitle">Alunos diagnosticados com alguma deficiência</span>
+                            </div>
+                            <div class="chart-body-pie">
+                                <canvas id="chart-deficiencias-detalhado"></canvas>
+                            </div>
+                        </div>
+
+                        <!-- Transporte Escolar -->
+                        <div class="chart-card glass col-span-2">
+                            <div class="chart-header">
+                                <h4>Autorização de Uso de Imagem</h4>
+                                <span class="chart-subtitle">Percentual de liberação das famílias</span>
+                            </div>
+                            <div class="chart-body-pie" style="max-height: 250px;">
+                                <canvas id="chart-imagem-autorizacao"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- VIEW 5: COMPARAÇÃO CENSO -->
+                <section id="view-comparison" class="content-view">
+                    <div class="view-header">
+                        <div>
+                            <h2>Conciliação com Censo Oficial</h2>
+                            <p>Compare as informações do banco escolar com o censo oficial e identifique divergências.</p>
+                        </div>
+                        <div class="view-header-actions">
+                            <button class="btn btn-secondary btn-icon" id="btn-export-comparison-csv">
+                                <i data-lucide="download"></i>
+                                <span>Exportar Relatório</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- KPIs da Comparação -->
+                    <div class="kpi-grid animate-fade-in">
+                        <div class="kpi-card glass">
+                            <div class="kpi-icon-wrapper color-green">
+                                <i data-lucide="user-check"></i>
+                            </div>
+                            <div class="kpi-info">
+                                <span class="kpi-label">Conciliados</span>
+                                <h3 class="kpi-value" id="kpi-comp-conciliados">-</h3>
+                                <span class="kpi-subtext">Presentes nas duas bases</span>
+                            </div>
+                        </div>
+                        <div class="kpi-card glass">
+                            <div class="kpi-icon-wrapper color-amber">
+                                <i data-lucide="user-minus"></i>
+                            </div>
+                            <div class="kpi-info">
+                                <span class="kpi-label">Ausentes no Censo</span>
+                                <h3 class="kpi-value" id="kpi-comp-missing">-</h3>
+                                <span class="kpi-subtext">Apenas na Escola</span>
+                            </div>
+                        </div>
+                        <div class="kpi-card glass">
+                            <div class="kpi-icon-wrapper color-red">
+                                <i data-lucide="alert-circle"></i>
+                            </div>
+                            <div class="kpi-info">
+                                <span class="kpi-label">Com Divergências</span>
+                                <h3 class="kpi-value" id="kpi-comp-divergent">-</h3>
+                                <span class="kpi-subtext">Necessitam correção</span>
+                            </div>
+                        </div>
+                        <div class="kpi-card glass">
+                            <div class="kpi-icon-wrapper color-violet">
+                                <i data-lucide="check-circle-2"></i>
+                            </div>
+                            <div class="kpi-info">
+                                <span class="kpi-label">Sem Divergências</span>
+                                <h3 class="kpi-value" id="kpi-comp-perfect">-</h3>
+                                <span class="kpi-subtext">Cadastros 100% corretos</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Painel de Filtros de Comparação -->
+                    <div class="filters-panel glass animate-fade-in">
+                        <div class="filters-grid">
+                            <div class="filter-group text-search-group">
+                                <label for="comp-filter-search">Pesquisar Aluno</label>
+                                <div class="filter-input-wrapper">
+                                    <i data-lucide="search"></i>
+                                    <input type="text" id="comp-filter-search" placeholder="Nome, CPF ou Matrícula...">
+                                </div>
+                            </div>
+                            <div class="filter-group">
+                                <label for="comp-filter-status">Status no Censo</label>
+                                <select id="comp-filter-status">
+                                    <option value="">Todos</option>
+                                    <option value="CONCILIADO">Conciliado (Nas duas bases)</option>
+                                    <option value="APENAS_ESCOLA">Ausente no Censo (Apenas na Escola)</option>
+                                    <option value="APENAS_CENSO">Apenas no Censo</option>
+                                </select>
+                            </div>
+                            <div class="filter-group">
+                                <label for="comp-filter-divergence">Dados Cadastrais</label>
+                                <select id="comp-filter-divergence">
+                                    <option value="">Todos</option>
+                                    <option value="divergent">Com Divergências Críticas</option>
+                                    <option value="clean">Sem Divergências (100% OK)</option>
+                                </select>
+                            </div>
+                            <div class="filter-group btn-clear-group">
+                                <button class="btn btn-secondary btn-full" id="btn-clear-comp-filters">
+                                    <i data-lucide="filter-x"></i>
+                                    <span>Limpar Filtros</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tabela de Comparação -->
+                    <div class="table-container glass animate-fade-in">
+                        <div class="table-responsive">
+                            <table class="students-table">
+                                <thead>
+                                    <tr>
+                                        <th>ID/Matrícula</th>
+                                        <th>Nome do Aluno</th>
+                                        <th>CPF</th>
+                                        <th>Status no Censo</th>
+                                        <th>Divergências</th>
+                                        <th class="text-right">Ações</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="comparison-table-body">
+                                    <!-- Inserido dinamicamente -->
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- Paginação da Tabela de Comparação -->
+                        <div class="table-pagination">
+                            <div class="pagination-info">
+                                Mostrando <span id="comp-pagination-start">0</span> a <span id="comp-pagination-end">0</span> de <span id="comp-pagination-total">0</span> alunos.
+                            </div>
+                            <div class="pagination-controls">
+                                <div class="rows-per-page">
+                                    <span>Linhas:</span>
+                                    <select id="comp-rows-per-page-select">
+                                        <option value="10">10</option>
+                                        <option value="25" selected>25</option>
+                                        <option value="50">50</option>
+                                        <option value="100">100</option>
+                                    </select>
+                                </div>
+                                <div class="pagination-buttons">
+                                    <button class="btn btn-pagination" id="btn-comp-page-prev">
+                                        <i data-lucide="chevron-left"></i>
+                                    </button>
+                                    <span class="page-indicator" id="comp-page-indicator">Pág. 1 de 1</span>
+                                    <button class="btn btn-pagination" id="btn-comp-page-next">
+                                        <i data-lucide="chevron-right"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <!-- MODAL DE DETALHES DO ALUNO -->
+    <div class="modal-overlay" id="student-detail-modal">
+        <div class="modal-container glass">
+            
+            <!-- Cabeçalho do Modal -->
+            <div class="modal-header">
+                <div class="student-modal-meta">
+                    <div class="student-avatar-large" id="modal-student-avatar">
+                        AA
+                    </div>
+                    <div class="student-title-info">
+                        <h3 id="modal-student-name">Nome do Aluno</h3>
+                        <div class="badges-row">
+                            <span class="badge-status" id="modal-student-status">Ativo</span>
+                            <span class="badge-turma" id="modal-student-class-badge">9º ANO A</span>
+                            <span class="badge-turno" id="modal-student-shift-badge">Matutino</span>
+                        </div>
+                    </div>
+                </div>
+                <button class="modal-close-btn" id="btn-close-modal" aria-label="Fechar Modal">
+                    <i data-lucide="x"></i>
+                </button>
+            </div>
+
+            <!-- Navegação em Abas -->
+            <div class="modal-tabs">
+                <button class="tab-btn active" data-tab="tab-pessoais">Dados Pessoais</button>
+                <button class="tab-btn" data-tab="tab-escolar">Vida Escolar</button>
+                <button class="tab-btn" data-tab="tab-contato">Contato & Endereço</button>
+                <button class="tab-btn" data-tab="tab-familia">Família & Responsáveis</button>
+                <button class="tab-btn" data-tab="tab-saude">Saúde & Acessibilidade</button>
+                <button class="tab-btn" data-tab="tab-outros">Outros Serviços</button>
+            </div>
+
+            <!-- Conteúdo das Abas -->
+            <div class="modal-body scrollable">
+                
+                <!-- TAB 1: DADOS PESSOAIS -->
+                <div class="tab-content active" id="tab-pessoais">
+                    <div class="details-grid">
+                        <div class="detail-item">
+                            <span class="detail-label">Nome Completo</span>
+                            <span class="detail-value" id="d-nome">-</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Nome Social</span>
+                            <span class="detail-value" id="d-nome-social">-</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Data de Nascimento</span>
+                            <span class="detail-value" id="d-nascimento">-</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Idade Atual</span>
+                            <span class="detail-value" id="d-idade">-</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">CPF</span>
+                            <span class="detail-value" id="d-cpf">-</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Sexo</span>
+                            <span class="detail-value" id="d-sexo">-</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Raça / Cor</span>
+                            <span class="detail-value" id="d-cor">-</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Nacionalidade</span>
+                            <span class="detail-value" id="d-nacionalidade">-</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Naturalidade</span>
+                            <span class="detail-value" id="d-naturalidade">-</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Povo Indígena</span>
+                            <span class="detail-value" id="d-indigena">-</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TAB 2: VIDA ESCOLAR -->
+                <div class="tab-content" id="tab-escolar">
+                    <div class="details-grid">
+                        <div class="detail-item">
+                            <span class="detail-label">Código de Matrícula</span>
+                            <span class="detail-value" id="d-cod-matricula">-</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Código do Estudante</span>
+                            <span class="detail-value" id="d-cod-estudante">-</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Registro do Estudante (RA)</span>
+                            <span class="detail-value" id="d-ra">-</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Código CENSO</span>
+                            <span class="detail-value" id="d-censo">-</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Etapa de Ensino</span>
+                            <span class="detail-value" id="d-etapa">-</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Turma</span>
+                            <span class="detail-value" id="d-turma">-</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Turno</span>
+                            <span class="detail-value" id="d-turno">-</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Situação Escolar</span>
+                            <span class="detail-value" id="d-situacao">-</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Data da Matrícula</span>
+                            <span class="detail-value" id="d-data-matricula">-</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Data da Movimentação (Saída)</span>
+                            <span class="detail-value" id="d-data-movimentacao">-</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Confirmação de Rematrícula</span>
+                            <span class="detail-value" id="d-rematricula">-</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Escola Anterior</span>
+                            <span class="detail-value" id="d-escola-anterior">-</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TAB 3: CONTATO E ENDEREÇO -->
+                <div class="tab-content" id="tab-contato">
+                    <div class="details-grid">
+                        <div class="detail-item col-span-3">
+                            <span class="detail-label">Logradouro (Rua/Avenida)</span>
+                            <span class="detail-value" id="d-endereco-completo">-</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Bairro</span>
+                            <span class="detail-value" id="d-bairro">-</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">CEP</span>
+                            <span class="detail-value" id="d-cep">-</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Cidade / UF</span>
+                            <span class="detail-value" id="d-cidade-uf">-</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Telefone Principal (Contato 1)</span>
+                            <span class="detail-value font-mono" id="d-contato1">-</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Telefone Secundário (Contato 2)</span>
+                            <span class="detail-value font-mono" id="d-contato2">-</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Telefone de Recado (Contato 3)</span>
+                            <span class="detail-value font-mono" id="d-contato3">-</span>
+                        </div>
+                        <div class="detail-item col-span-2">
+                            <span class="detail-label">E-mail do Aluno / Família</span>
+                            <span class="detail-value" id="d-email">-</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Ponto de Referência</span>
+                            <span class="detail-value" id="d-ponto-referencia">-</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TAB 4: FAMÍLIA E RESPONSÁVEIS -->
+                <div class="tab-content" id="tab-familia">
+                    <div class="details-grid">
+                        <!-- Filiação 1 -->
+                        <div class="detail-card col-span-3">
+                            <h5 class="detail-card-title">Filiação 1 (Mãe/Responsável)</h5>
+                            <div class="details-grid mt-2">
+                                <div class="detail-item col-span-2">
+                                    <span class="detail-label">Nome Completo</span>
+                                    <span class="detail-value" id="d-filiacao1-nome">-</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">CPF</span>
+                                    <span class="detail-value" id="d-filiacao1-cpf">-</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">Telefone</span>
+                                    <span class="detail-value font-mono" id="d-filiacao1-telefone">-</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">Falecido(a)</span>
+                                    <span class="detail-value" id="d-filiacao1-falecido">-</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Filiação 2 -->
+                        <div class="detail-card col-span-3">
+                            <h5 class="detail-card-title">Filiação 2 (Pai/Responsável)</h5>
+                            <div class="details-grid mt-2">
+                                <div class="detail-item col-span-2">
+                                    <span class="detail-label">Nome Completo</span>
+                                    <span class="detail-value" id="d-filiacao2-nome">-</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">CPF</span>
+                                    <span class="detail-value" id="d-filiacao2-cpf">-</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">Telefone</span>
+                                    <span class="detail-value font-mono" id="d-filiacao2-telefone">-</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">Falecido(a)</span>
+                                    <span class="detail-value" id="d-filiacao2-falecido">-</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Responsável Legal -->
+                        <div class="detail-card col-span-3">
+                            <h5 class="detail-card-title">Responsável Financeiro/Legal</h5>
+                            <div class="details-grid mt-2">
+                                <div class="detail-item col-span-2">
+                                    <span class="detail-label">Nome do Responsável</span>
+                                    <span class="detail-value" id="d-responsavel-nome">-</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">CPF do Responsável</span>
+                                    <span class="detail-value" id="d-responsavel-cpf">-</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TAB 5: SAÚDE E ACESSIBILIDADE -->
+                <div class="tab-content" id="tab-saude">
+                    <div class="details-grid">
+                        <div class="detail-item col-span-2">
+                            <span class="detail-label">Cartão Nacional do SUS</span>
+                            <span class="detail-value font-mono" id="d-sus">-</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Estudante com Deficiência (PCD)</span>
+                            <span class="detail-value" id="d-deficiencia-flag">-</span>
+                        </div>
+                        <div class="detail-item col-span-3">
+                            <span class="detail-label">Tipo de Deficiência / Transtorno do Espectro Autista (TEA)</span>
+                            <span class="detail-value" id="d-deficiencia-tipo">-</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Impacto na Aprendizagem</span>
+                            <span class="detail-value" id="d-aprendizagem-flag">-</span>
+                        </div>
+                        <div class="detail-item col-span-2">
+                            <span class="detail-label">Transtornos de Aprendizagem (TDAH, Dislexia, etc.)</span>
+                            <span class="detail-value" id="d-aprendizagem-tipo">-</span>
+                        </div>
+                        <div class="detail-item col-span-3">
+                            <span class="detail-label">Recursos Necessários para Avaliações (Saeb/Inep)</span>
+                            <span class="detail-value" id="d-recursos-sala">-</span>
+                        </div>
+                        <div class="detail-item col-span-2">
+                            <span class="detail-label">Atendimento Educacional Especializado (AEE)</span>
+                            <span class="detail-value" id="d-aee-tipo">-</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Código CID</span>
+                            <span class="detail-value font-mono" id="d-cid">-</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Frequenta a APAE</span>
+                            <span class="detail-value" id="d-apae">-</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Possui Restrição Alimentar</span>
+                            <span class="detail-value" id="d-restricao-alimentar-flag">-</span>
+                        </div>
+                        <div class="detail-item col-span-2">
+                            <span class="detail-label">Descrição da Restrição Alimentar</span>
+                            <span class="detail-value" id="d-restricao-alimentar-desc">-</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TAB 6: OUTROS SERVIÇOS -->
+                <div class="tab-content" id="tab-outros">
+                    <div class="details-grid">
+                        <div class="detail-item">
+                            <span class="detail-label">Utiliza Transporte Escolar</span>
+                            <span class="detail-value" id="d-transporte-flag">-</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Poder Público Responsável</span>
+                            <span class="detail-value" id="d-transporte-responsavel">-</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Tipo de Veículo do Transporte</span>
+                            <span class="detail-value" id="d-transporte-veiculo">-</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Utiliza Passe Escolar</span>
+                            <span class="detail-value" id="d-passe-escolar">-</span>
+                        </div>
+                        <div class="detail-item col-span-2">
+                            <span class="detail-label">Autorização do Uso de Imagem pela Escola</span>
+                            <span class="detail-value" id="d-autorizacao-imagem">-</span>
+                        </div>
+                        <div class="detail-item col-span-2">
+                            <span class="detail-label">Avaliado por Plano de Desenvolvimento Individual (PDI/PEI/PDP)</span>
+                            <span class="detail-value" id="d-pdi-pei">-</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Código da Unidade de Energia (Residencial)</span>
+                            <span class="detail-value font-mono" id="d-consumidor-energia">-</span>
+                        </div>
+                        <div class="detail-item col-span-2">
+                            <span class="detail-label">Localização da Residência (Área)</span>
+                            <span class="detail-value" id="d-area-residencia">-</span>
+                        </div>
+                        <div class="detail-item col-span-3">
+                            <span class="detail-label">Observações da Ficha</span>
+                            <span class="detail-value" id="d-observacoes">-</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Rodapé do Modal -->
+            <div class="modal-footer">
+                <button class="btn btn-secondary" id="btn-print-student">
+                    <i data-lucide="printer"></i>
+                    <span>Imprimir Ficha (PDF)</span>
+                </button>
+                <button class="btn btn-primary" id="btn-close-modal-footer">Fechar</button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- MODAL DE COMPARAÇÃO LADO A LADO -->
+    <div class="modal-overlay" id="comparison-detail-modal">
+        <div class="modal-container glass" style="max-width: 950px; height: 90%;">
+            
+            <div class="modal-header">
+                <div class="student-modal-meta">
+                    <div class="student-avatar-large" id="modal-comp-avatar">
+                        CO
+                    </div>
+                    <div class="student-title-info">
+                        <h3 id="modal-comp-student-name">Nome do Aluno</h3>
+                        <div class="badges-row">
+                            <span class="badge-status" id="modal-comp-status-badge">Status</span>
+                            <span class="badge-turma" id="modal-comp-divergences-badge">0 Divergências</span>
+                        </div>
+                    </div>
+                </div>
+                <button class="modal-close-btn" id="btn-close-comp-modal" aria-label="Fechar Modal">
+                    <i data-lucide="x"></i>
+                </button>
+            </div>
+
+            <!-- Corpo do modal - Exibição Lado a Lado -->
+            <div class="modal-body scrollable">
+                <p class="comparison-intro" style="margin-bottom: 20px; font-size: 14px; color: var(--text-secondary);">
+                    Abaixo estão listadas todas as informações comparadas entre as duas bases. Linhas em vermelho destacam diferenças cadastrais que devem ser revisadas.
+                </p>
+                
+                <div class="comparison-table-wrapper">
+                    <table class="side-by-side-table" style="width: 100%; border-collapse: collapse; text-align: left; font-size: 14px;">
+                        <thead>
+                            <tr style="background-color: rgba(255, 255, 255, 0.02); border-bottom: 1px solid var(--border-color);">
+                                <th style="padding: 12px 16px; font-weight: 600; color: var(--text-secondary); text-transform: uppercase; font-size: 11px; letter-spacing: 0.08em;">Campo Analisado</th>
+                                <th style="padding: 12px 16px; font-weight: 600; color: var(--text-secondary); text-transform: uppercase; font-size: 11px; letter-spacing: 0.08em;">Informação na Escola (Planilha)</th>
+                                <th style="padding: 12px 16px; font-weight: 600; color: var(--text-secondary); text-transform: uppercase; font-size: 11px; letter-spacing: 0.08em;">Informação no Censo Oficial</th>
+                                <th style="padding: 12px 16px; font-weight: 600; color: var(--text-secondary); text-transform: uppercase; font-size: 11px; letter-spacing: 0.08em; text-align: center;">Status</th>
+                            </tr>
+                        </thead>
+                        <tbody id="comparison-side-by-side-body">
+                            <!-- Inserido dinamicamente -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button class="btn btn-secondary" id="btn-print-comparison">
+                    <i data-lucide="printer"></i>
+                    <span>Imprimir Relatório</span>
+                </button>
+                <button class="btn btn-primary" id="btn-close-comp-modal-footer">Fechar</button>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- Script Principal -->
+    <script src="index.js"></script>
+</body>
+</html>
