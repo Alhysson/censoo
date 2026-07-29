@@ -1,13 +1,19 @@
 import os
 import json
 import pandas as pd
+import math
 from convert_ubaldo_pdf import BASE_DIR
 
 def clean_val(x):
     if pd.isnull(x):
         return ""
     val = str(x).strip()
-    if val in ['-', '--', '---', 'N/A', 'Não', 'None', 'nan', 'NaN']:
+    # Corrige números inteiros que o pandas transforma em float (ex: 123.0 -> 123)
+    if val.endswith('.0'):
+        val = val[:-2]
+    
+    # Valores nulos/vazios comuns em relatórios
+    if val in ['-', '--', '---', 'N/A', 'Não', 'None', 'nan', 'NaN', 'NaT']:
         return ""
     return val
 
